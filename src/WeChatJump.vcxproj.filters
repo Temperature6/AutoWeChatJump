@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\game_img">
+      <UniqueIdentifier>{5da6ba6a-dcef-40f9-9853-8a9ce50ecf4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\srceenshot">
+      <UniqueIdentifier>{50c5fa4b-45c2-4a6f-9835-66551539f322}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="phone.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="screenshot\sc.jpg">
+      <Filter>资源文件\srceenshot</Filter>
+    </Image>
+    <Image Include="game_img\player.png">
+      <Filter>资源文件\game_img</Filter>
+    </Image>
+    <Image Include="screenshot\sc2.jpg">
+      <Filter>资源文件\srceenshot</Filter>
+    </Image>
+    <Image Include="screenshot\sc3.jpg">
+      <Filter>资源文件\srceenshot</Filter>
+    </Image>
+    <Image Include="screenshot\sc4.jpg">
+      <Filter>资源文件\srceenshot</Filter>
+    </Image>
+    <Image Include="screenshot\sc5.jpg">
+      <Filter>资源文件\srceenshot</Filter>
+    </Image>
+    <Image Include="screenshot\sc6.jpg">
+      <Filter>资源文件\srceenshot</Filter>
+    </Image>
+    <Image Include="screenshot\sc7.jpg">
+      <Filter>资源文件\srceenshot</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Block.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="phone.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
